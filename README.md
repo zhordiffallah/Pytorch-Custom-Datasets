@@ -6,8 +6,8 @@ This repository contains custom PyTorch `Dataset` classes for various sound data
 
 This repository includes custom datasets for:
 
-- **Sound Event Detection Datasets**
-- **Biomedical Sound Datasets**
+- **ICBHI Respiratory Sound Database (The Respiratory Sound database - ICBHI 2017 Challenge)** : The database consists of a total of 5.5 hours of recordings containing 6898 respiratory cycles, of which 1864 contain crackles, 886 contain wheezes, and 506 contain both crackles and wheezes, in 920 annotated audio samples from 126 subjects. The cycles were annotated by respiratory experts as including crackles, wheezes, a combination of them, or no adventitious respiratory sounds. The recordings were collected using heterogeneous equipment and their duration ranged from 10s to 90s.
+- **TUT Sound Events 2017** : Introduced by Annamaria Mesaros et al. in [TUT database for acoustic scene classification and sound event detection]([URL](https://ieeexplore.ieee.org/document/7760424/)), the TUT Sound Events 2017 dataset contains 24 audio recordings in a street environment and contains 6 different classes. These classes are: brakes squeaking, car, children, large vehicle, people speaking, and people walking.
 
 
 ## ⚙️ Installation
@@ -21,7 +21,7 @@ Navigate to the cloned directory:
 
 ```bash
 cd your-repo-name
-
+```
 Once you have cloned the repository and installed the necessary dependencies, you can use any of the available datasets in your PyTorch projects. Below is an example of how to use a custom dataset:
 
 ```bash
@@ -31,6 +31,6 @@ from torch.utils.data import DataLoader
 dataset = CustomDataset('path/to/your/audio/files', 'path/to/your/annotations')
 # Create a DataLoader
 dataloader = DataLoader(dataset, batch_size=32, shuffle=True)
-
-## Contributing
+```
+## 🚀 Contributing
 Contributions are welcome! Feel free to submit a pull request if you want to add a new dataset or improve the repository.
