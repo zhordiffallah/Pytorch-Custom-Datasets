@@ -15,7 +15,7 @@ This repository includes custom datasets for:
 To use the custom datasets, first clone this repository:
 
 ```bash
-git clone [https://github.com/your-username/your-repo-name.git](https://github.com/zhordiffallah/Pytorch-Custom-Datasets.git)
+git clone https://github.com/zhordiffallah/Pytorch-Custom-Datasets.git
 ```
 Navigate to the cloned directory:
 
